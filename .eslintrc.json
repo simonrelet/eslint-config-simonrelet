@@ -1,0 +1,27 @@
+{
+  "extends": [ "eslint:recommended", "google" ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true,
+    "mocha": true
+  },
+  "rules": {
+    "array-bracket-spacing": [ "error", "always", {
+      "objectsInArrays": false,
+      "arraysInArrays": false
+    }],
+    "jsx-quotes": [ "error", "prefer-single" ],
+    "linebreak-style": [ "off" ],
+    "max-len": [ "warn", 100 ],
+    "no-console": "warn",
+    "no-var": "error",
+    "object-curly-spacing": [ "error", "always" ],
+    "operator-linebreak": [ "error", "before" ],
+    "quotes": [ "error", "single", { "allowTemplateLiterals": true } ],
+    "require-jsdoc": [ "off" ]
+  }
+}

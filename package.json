@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-simonrelet",
+  "version": "0.0.1",
+  "description": "My ESLint shareable config for JavaScript style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonrelet/eslint-config-simonrelet.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Simon Relet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonrelet/eslint-config-simonrelet/issues"
+  },
+  "homepage": "https://github.com/simonrelet/eslint-config-simonrelet#readme",
+  "peerDependencies": {
+    "eslint": ">=3.2.2"
+  },
+  "dependencies": {
+    "eslint-config-google": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2"
+  }
+}
