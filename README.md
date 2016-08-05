@@ -19,8 +19,8 @@ Add some ESLint config to your `package.json`:
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"eslint": "^3.2.2",
-		"eslint-config-simonrelet": "^0.1.0"
+		"eslint": "^2.10.2",
+		"eslint-config-simonrelet": "^0.0.3"
 	},
 	"eslintConfig": {
 		"extends": "simonrelet"

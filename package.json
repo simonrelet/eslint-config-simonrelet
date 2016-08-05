@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simonrelet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My ESLint shareable config for JavaScript style guide",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/simonrelet/eslint-config-simonrelet#readme",
   "peerDependencies": {
-    "eslint": ">=3.2.2"
+    "eslint": ">=2.10.2"
   },
   "dependencies": {
     "eslint-config-google": "^0.6.0"
   },
   "devDependencies": {
-    "eslint": "^3.2.2"
+    "eslint": "^2.10.2"
   }
 }
