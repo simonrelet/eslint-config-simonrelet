@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-simonrelet",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "My ESLint shareable config for JavaScript style guide",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",

@@ -20,7 +20,7 @@ Add some ESLint config to your `package.json`:
 	},
 	"devDependencies": {
 		"eslint": "^2.10.2",
-		"eslint-config-simonrelet": "^0.0.3"
+		"eslint-config-simonrelet": "^1.0.0"
 	},
 	"eslintConfig": {
 		"extends": "simonrelet"
